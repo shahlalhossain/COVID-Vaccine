@@ -8,7 +8,6 @@ The COVID-19 Vaccination Registration System is a web-based platform developed i
 * MySQL Database
 * Apache - Application Server
 * Composer & Node
-  - Nested Point
 
 # Installation Steps
 **Clone the Repository:** Open terminal and run the following command to clone the repository
