@@ -18,9 +18,9 @@ class DatabaseSeeder extends Seeder
     {
         Model::unguard();
 
-//        $this->call(UserSeeder::class);
-//        $this->call(VaccineCenterSeeder::class);
-//        $this->call(VaccineCenterScheduleSeeder::class);
+        $this->call(UserSeeder::class);
+        $this->call(VaccineCenterSeeder::class);
+        $this->call(VaccineCenterScheduleSeeder::class);
         $this->call(VaccineNotficationSeeder::class);
 
         Model::reguard();
