@@ -25,7 +25,7 @@ class UserRegistrationRequest extends FormRequest
             'name'              => 'required|min:3',
             'mobile'            => 'required|min:11|min:11|max:11',
             'email'             => 'required',
-            'nid'               => 'required|numeric|min:4|max:6|unique:users',
+            'nid'               => 'required|numeric|min:4|unique:users',
             'vaccine_center_id' => 'required',
         ];
     }
@@ -42,7 +42,6 @@ class UserRegistrationRequest extends FormRequest
             'nid.required'      => __('National ID is Required'),
             'nid.numeric'       => __('National ID should be Numeric Only'),
             'nid.min'           => __('National ID should be Minimum 4 Digit'),
-            'nid.max'           => __('National ID should be Maximum 6 Digit'),
             'nid.unique'        => __('The Given National ID is Already Exist. Try with another National ID or Check Vaccine Status'),
         ];
     }

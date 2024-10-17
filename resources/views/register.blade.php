@@ -41,7 +41,7 @@
                         <div class="form-group row">
                             <label for="nid" class="col-sm-2 col-form-label text-right">National ID</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="nid" name="nid" value="{{ old('nid') }}" min="4" max="6" placeholder="Your National ID: 4-6 Digit" required>
+                                <input type="text" class="form-control" id="nid" name="nid" value="{{ old('nid') }}" min="4" placeholder="Your National ID: 4-6 Digit" required>
                                 @if($errors->has('nid'))<span class="text-danger">{{ $errors->first('nid') }}</span>@endif
                             </div>
                         </div>

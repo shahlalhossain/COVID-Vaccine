@@ -11,18 +11,18 @@
 @section('content')
     <div class="row top-margin pt-3">
         <div class="col-12 pb-3">
-            <div class="card text-center" style="height: 420px;">
+            <div class="card text-center">
                 <div class="card-header">
                     <div class="card-title">
                         <h2>Register for COVID-19 Vaccine</h2>
                     </div>
                 </div>
                 <div class="card-body">
-                    <p style="font-size: 20px;">You will be needed</p>
-                    <hr>
-                    <img src="{{ asset('/assets/images/vaccine_doc.png') }}" alt="...">
-                    <hr>
-                    <br>
+{{--                    <p style="font-size: 20px;">You will be needed</p>--}}
+{{--                    <hr>--}}
+{{--                    <img src="{{ asset('/assets/images/vaccine_doc.png') }}" alt="...">--}}
+{{--                    <hr>--}}
+{{--                    <br>--}}
                     <img src="{{ asset('/assets/images/register.png') }}" alt="...">
                     <a href="{{ route('register') }}" style="text-decoration: none;"><h4>Register Here</h4></a>
                 </div>
